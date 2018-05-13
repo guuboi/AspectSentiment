@@ -1,0 +1,2160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sentences>
+    <sentence id="1">
+        <text>适合 上班 工薪族 、 综合 油耗 在 6 个 左右 。</text>
+        <aspectTerms>
+            <aspectTerm term="油耗" polarity="positive" from="5" to="6"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="2">
+        <text>还好 ， 下潜 式 座椅 舒服 ， 悬挂 在 软点 就 好 了 。</text>
+        <aspectTerms>
+            <aspectTerm term="座椅" polarity="positive" from="4" to="5"/>
+            <aspectTerm term="悬挂" polarity="neutral" from="7" to="8"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="3">
+        <text>音响 只 在 前门 有 2 个 喇叭 ， 后面 空空 的 很 不爽 。</text>
+        <aspectTerms>
+            <aspectTerm term="音响" polarity="negative" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="4">
+        <text>外观 很 时尚 ， 天津 一汽 的 第一部 时尚 小车 。</text>
+        <aspectTerms>
+            <aspectTerm term="外观" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="5">
+        <text>颜色 多样 ， 我 选择 了 红色 ， 并 加装 了 车窗饰条 ， 行李架 ， 很拉风 。</text>
+        <aspectTerms>
+            <aspectTerm term="颜色" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="6">
+        <text>内饰 得 加油 啊 ， 用料 很 不好 ， 现在 看来 还 不如 夏利 内饰 用料 好 。</text>
+        <aspectTerms>
+            <aspectTerm term="内饰" polarity="negative" from="0" to="1"/>
+            <aspectTerm term="用料" polarity="negative" from="5" to="6"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="7">
+        <text>机油 滤芯 的 拆装 很 费事 ， 空调滤芯 太 次 。</text>
+        <aspectTerms>
+            <aspectTerm term="机油 滤芯" polarity="negative" from="0" to="2"/>
+            <aspectTerm term="空调滤芯" polarity="negative" from="7" to="8"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="8">
+        <text>刹车片 偏硬 有 异响 ， 我 的 跑 到 接近 2 万公里 才 好 。</text>
+        <aspectTerms>
+            <aspectTerm term="刹车片" polarity="negative" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="9">
+        <text>空间 大 、 油耗 低 、 外形 美观 、 保养 维修费用 较 低 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="油耗" polarity="positive" from="3" to="4"/>
+            <aspectTerm term="外形" polarity="positive" from="6" to="7"/>
+            <aspectTerm term="保养 维修费用" polarity="positive" from="9" to="11"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="10">
+        <text>动力 还 可以 ， 对于 1.3 排量 的 车 不错 。</text>
+        <aspectTerms>
+            <aspectTerm term="动力" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="11">
+        <text>外观 我 个人 比较 喜欢 ， 设计 圆润 、 比较 厚重感 。</text>
+        <aspectTerms>
+            <aspectTerm term="外观" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="12">
+        <text>空间 大 ， 油耗 低 , 维修 方便 ， 家庭 使用 实惠 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="油耗" polarity="positive" from="3" to="4"/>
+            <aspectTerm term="维修" polarity="positive" from="6" to="7"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="13">
+        <text>1 , 2 档位 不好 挂 ， 内饰 塑料 做工 不佳 。</text>
+        <aspectTerms>
+            <aspectTerm term="内饰" polarity="negative" from="7" to="8"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="14">
+        <text>油箱 容量 比较 小 ， 还有 一些 小毛病 不断 。</text>
+        <aspectTerms>
+            <aspectTerm term="油箱" polarity="negative" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="15">
+        <text>空间 是 我 最 满意 的 地方 ， 也 是 买 这个 车 的 主要 原因 之一 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="16">
+        <text>虽然 是 两厢车 ， 但是 后备箱 空间 比较 大 ， 可以 满足 家庭 日常 装载 需要 。</text>
+        <aspectTerms>
+            <aspectTerm term="后备箱" polarity="positive" from="5" to="6"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="17">
+        <text>动力 上 感觉 一般 ， 可能 是 总开 别人 的 车 的 原因 ， 总是 感觉 在 高速 上 动力 不足 。</text>
+        <aspectTerms>
+            <aspectTerm term="动力" polarity="negative" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="18">
+        <text>操控性 还 可以 ， 转弯 感觉 比较 流畅 ， 但 急转弯 和 调头 的 时候 ， 车身 倾斜 稍大 。</text>
+        <aspectTerms>
+            <aspectTerm term="操控性" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="19">
+        <text>舒适性 一般 ， 但是 空间 大 就 会 增加 舒适性 ， 感觉 没 那么 狭小 。</text>
+        <aspectTerms>
+            <aspectTerm term="舒适性" polarity="neutral" from="0" to="1"/>
+            <aspectTerm term="空间" polarity="positive" from="4" to="5"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="20">
+        <text>驾驶 视野 上 也 很 开阔 ， 后排空间 比较 大 ， 坐得 人 不 感觉 狭小 。</text>
+        <aspectTerms>
+            <aspectTerm term="视野" polarity="positive" from="1" to="2"/>
+            <aspectTerm term="后排空间" polarity="positive" from="7" to="8"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="21">
+        <text>外观 感觉 不是 多 漂亮 ， 可能 是因为 买车 时 看 的 装饰 齐全 的 样品 车 了 吧 ， 先入为主 。</text>
+        <aspectTerms>
+            <aspectTerm term="外观" polarity="neutral" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="22">
+        <text>内饰 还 可以 ， 觉得 炮筒式 仪表盘 比较 运动 ， 中控台 的 CD 还有 USB 接口 ， 可以 插 U盘 听歌 比较 方便 。</text>
+        <aspectTerms>
+            <aspectTerm term="内饰" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="仪表盘" polarity="positive" from="6" to="7"/>
+            <aspectTerm term="中控台" polarity="positive" from="10" to="11"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="23">
+        <text>配备 了 电动 助力 操控 很 灵敏 油耗 很 满意 。</text>
+        <aspectTerms>
+            <aspectTerm term="操控" polarity="positive" from="4" to="5"/>
+            <aspectTerm term="油耗" polarity="positive" from="7" to="8"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="24">
+        <text>空间 大 不管 是 前排 后排 我 坐 都 可以 ， 清明 的 时候 开着 V2 拉着 7 个 成年人 去 扫墓 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="25">
+        <text>很 省油 ， 油价 不断 变化 ， 不过 我 的 油耗 基本 是 每 公里 4 毛 ， 没去 算 百公里 的 。</text>
+        <aspectTerms>
+            <aspectTerm term="油耗" polarity="positive" from="10" to="11"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="26">
+        <text>价格 合适 ， 算是 性价比 很 高 的 了 ， 车车 外形 不错 ， 空间 够 大 ， 底盘 也 够 高 ， 最 重要 的 是 耗油 很少 ！</text>
+        <aspectTerms>
+            <aspectTerm term="性价比" polarity="positive" from="4" to="5"/>
+            <aspectTerm term="外形" polarity="positive" from="11" to="12"/>
+            <aspectTerm term="空间" polarity="positive" from="14" to="15"/>
+            <aspectTerm term="底盘" polarity="positive" from="18" to="19"/>
+            <aspectTerm term="耗油" polarity="positive" from="27" to="28"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="27">
+        <text>变速箱 和 动力 匹配 不是 很 好 ， 尤其 是 一 、 二挡 ， 不给力 空间 真的 很大 ！</text>
+        <aspectTerms>
+            <aspectTerm term="变速箱" polarity="neutral" from="0" to="1"/>
+            <aspectTerm term="动力" polarity="neutral" from="2" to="3"/>
+            <aspectTerm term="空间" polarity="positive" from="15" to="16"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="28">
+        <text>可是 变速箱 太不给力 了 ， 尤其 是 一 、 二挡 ， 不给力 !</text>
+        <aspectTerms>
+            <aspectTerm term="变速箱" polarity="negative" from="1" to="2"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="29">
+        <text>总的来讲 ， 它 在 储物空间 方面 基本 够用 。</text>
+        <aspectTerms>
+            <aspectTerm term="储物空间" polarity="positive" from="4" to="5"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="30">
+        <text>车 的 外观 我 个人 觉得 还是 很 不错 的 , 动力 也 还行 . , 后期 保养成本 低 , 其实 优点 还是 很多 的 !</text>
+        <aspectTerms>
+            <aspectTerm term="外观" polarity="positive" from="2" to="3"/>
+            <aspectTerm term="动力" polarity="positive" from="11" to="12"/>
+            <aspectTerm term="保养成本" polarity="positive" from="17" to="18"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="31">
+        <text>其次 ， vv 性价比 最高 ， 同价位 的 车 ， vv 的 配置 是 最好 的 ， 电动车窗 ， 电动 后视镜 ， 安全气囊 等等 都 有 ；</text>
+        <aspectTerms>
+            <aspectTerm term="性价比" polarity="positive" from="3" to="4"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="32">
+        <text>内饰 一般 ， 细节 较差 ， 缝隙 比较 多 ， 比较简单 。</text>
+        <aspectTerms>
+            <aspectTerm term="内饰" polarity="negative" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="33">
+        <text>综合 说 是 一款 性价比 非常 高 的 小车 ， 尽管 细节 一般 ， 但是 在 同档次 价位 的 车 里面 是 比较 实惠 的 ， 工薪 家庭 很 适合 。</text>
+        <aspectTerms>
+            <aspectTerm term="性价比" polarity="positive" from="4" to="5"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="34">
+        <text>塑料感 十足 ， 缝隙 过大 ， 做工 比较 粗糙 ， 不过 个人 觉得 按钮 还 能算 舒服 。</text>
+        <aspectTerms>
+            <aspectTerm term="做工" polarity="negative" from="6" to="7"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="35">
+        <text>个人感觉 性价比 还是 不错 的 ， 当然 只是 同价位 的 相比 ， 目前 来说 呢 ， 配置 还好 。</text>
+        <aspectTerms>
+            <aspectTerm term="性价比" polarity="positive" from="1" to="2"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="36">
+        <text>VV 的 整体 空间 还 可以 ， 内部空间 较 宽松 ， 车内 储物空间 丰富 ， 后备箱 的 储物空间 较大 ， 坐 5 个 成人 一点 也 不 挤 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="3" to="4"/>
+            <aspectTerm term="储物空间" polarity="positive" from="12" to="13"/>
+            <aspectTerm term="后备箱" polarity="positive" from="15" to="16"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="37">
+        <text>底盘 较 扎实 ， 方向盘 轻便 ， 就是 2 档挂 档 稍 有 不顺 。</text>
+        <aspectTerms>
+            <aspectTerm term="底盘" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="方向盘" polarity="positive" from="4" to="5"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="37">
+        <text>综合 油耗 不错 , 25 升能 跑 400 公里 左右 。</text>
+        <aspectTerms>
+            <aspectTerm term="油耗" polarity="positive" from="1" to="2"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="38">
+        <text>前脸设计 较大 气 ， 整车 线条 流畅 自然 ， 时尚 运动 的 造型 比较 受欢迎 。</text>
+        <aspectTerms>
+            <aspectTerm term="前脸设计" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="造型" polarity="positive" from="12" to="13"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="39">
+        <text>内饰 简洁 ， 整体 布局合理 ， 座椅 包裹 性较 好 ；</text>
+        <aspectTerms>
+            <aspectTerm term="内饰" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="座椅" polarity="positive" from="6" to="7"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="40">
+        <text>选择 汽车 油耗 是 我们 最 关注 的 主题 ， 而 威志V2 的 油耗 在 5.8 个 左右 ， 非常 省油 。</text>
+        <aspectTerms>
+            <aspectTerm term="油耗" polarity="positive" from="2" to="3"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="41">
+        <text>其次 ， 汽车 空间 较大 ， 驾驶 位置 对于 183cm 身高 的 人 也 能 很 好 的 驾控 ， 整体 来看 ， 车 的 性价比 也 很 好 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="3" to="4"/>
+            <aspectTerm term="性价比" polarity="positive" from="25" to="26"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="42">
+        <text>作为 家用 的 两厢车 ， 整体 空间 较 同等 二厢车 更 宽敞 一些 ， 非常 合适 家庭 的 自驾游 ， 后备箱 空间 也 足够 家庭 使用 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="6" to="7"/>
+            <aspectTerm term="后备箱" polarity="positive" from="20" to="21"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="43">
+        <text>其他 都 很 满意 ， 方向盘 舒适 ， 转向 精准 。</text>
+        <aspectTerms>
+            <aspectTerm term="方向盘" polarity="positive" from="5" to="6"/>
+            <aspectTerm term="转向" polarity="positive" from="8" to="9"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="44">
+        <text>在 偏 郊区 行使 ， 油耗 在 百公里 平均 5.8 个 ， 作为 普通 的 上班族 非常 给力 。</text>
+        <aspectTerms>
+            <aspectTerm term="油耗" polarity="positive" from="5" to="6"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="45">
+        <text>但车 在 行使 在 坑洼 不平 的 道路 时 噪声 异常 大 ， 让 驾驶人员 感觉 驾驶 的 不 安全性 。</text>
+        <aspectTerms>
+            <aspectTerm term="噪声" polarity="negative" from="9" to="10"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="46">
+        <text>同时 胎噪声 大 ， 平常 驾驶 能 明显 听到 轮胎 与 地面 接触 的 声音 。</text>
+        <aspectTerms>
+            <aspectTerm term="胎噪声" polarity="negative" from="1" to="2"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="47">
+        <text>内饰 简单 ， 做工 稍显 粗糙 ， 但 都 比较 实用 ， 不 花哨 。</text>
+        <aspectTerms>
+            <aspectTerm term="内饰" polarity="neutral" from="0" to="1"/>
+            <aspectTerm term="做工" polarity="negative" from="3" to="4"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="48">
+        <text>总体 性价比 较 高 ， 作为 家用 代步 轿车 非常 合适 。</text>
+        <aspectTerms>
+            <aspectTerm term="性价比" polarity="positive" from="1" to="2"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="49">
+        <text>作为 本地 国产车 ， 维修点 较 多 ， 维修保养 起来 非常 方便 ， 费用 也 相对 较 低 。</text>
+        <aspectTerms>
+            <aspectTerm term="维修保养" polarity="positive" from="8" to="9"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="50">
+        <text>性价比 一般 ， 前脸 很 难看 ， 品牌 影响力 小 导致 保有量 少 ， 配件 什么 的 价格 贵 。</text>
+        <aspectTerms>
+            <aspectTerm term="性价比" polarity="neutral" from="0" to="1"/>
+            <aspectTerm term="前脸" polarity="negative" from="3" to="4"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="51">
+        <text>小型车 来说 ， 这个 空间 很 不错 了 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="4" to="5"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="52">
+        <text>动力 ： 五个 大人 及 两个 小孩 ， 开 空调 上坡 ， 表示 无 压力 。</text>
+        <aspectTerms>
+            <aspectTerm term="动力" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="53">
+        <text>油耗 ， 比起 混动 不好 ， 但是 相比之下 还 不错 ， 一 公里 6 毛 左右 舒适性 ： 只 坐 两个 人 的话 ， 很 不错 。</text>
+        <aspectTerms>
+            <aspectTerm term="油耗" polarity="neutral" from="0" to="1"/>
+            <aspectTerm term="舒适性" polarity="neutral" from="16" to="17"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="54">
+        <text>座椅 有点 薄 ， 个人 改动 了 下 ， 原厂 的 座椅 椅背 跟 面包车 差不多 。</text>
+        <aspectTerms>
+            <aspectTerm term="座椅" polarity="negative" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="55">
+        <text>座椅 配置 太 逊色 了 ， 比 面包车 还 难受 。</text>
+        <aspectTerms>
+            <aspectTerm term="座椅" polarity="negative" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="56">
+        <text>座椅 真是 恶心 到家 了 猛 一 看 跟 丰田 霸道 相似 还是 可以 的 </text>
+        <aspectTerms>
+            <aspectTerm term="座椅" polarity="negative" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="57">
+        <text>刚才 已经 说 了 ， 最 不 满意 的 是 动力 。</text>
+        <aspectTerms>
+            <aspectTerm term="动力" polarity="negative" from="10" to="11"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="58">
+        <text>底盘 高 通过性 强 ， 再也 不怕 马路 牙子 了 。</text>
+        <aspectTerms>
+            <aspectTerm term="底盘" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="通过性" polarity="positive" from="2" to="3"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="59">
+        <text>做工 上 用心 一点 成本 也 不会 增加 的 ， 工作 态度 的 问题 。</text>
+        <aspectTerms>
+            <aspectTerm term="做工" polarity="negative" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="60">
+        <text>空间 可以 说 超大 ， 七座 坐 七个 人 还有 剩余 空间 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="61">
+        <text>所以 感觉 动力 方面 还 行 ， 挺 有劲 的 。</text>
+        <aspectTerms>
+            <aspectTerm term="动力" polarity="positive" from="2" to="3"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="62">
+        <text>这里 就 不 讲 什么 舒适性 了 ， 开着 舒服 就行了 ， 实用性 大于 舒适性 。</text>
+        <aspectTerms>
+            <aspectTerm term="舒适性" polarity="positive" from="5" to="6"/>
+            <aspectTerm term="实用性" polarity="positive" from="12" to="13"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="63">
+        <text>外观 虽然 老 ， 但是 个人感觉 还是 挺 好看 的 ， 喜欢 这种 棱角分明 外观 ， 旗胜 的 那种 外观 本人 不 喜欢 。</text>
+        <aspectTerms>
+            <aspectTerm term="外观" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="64">
+        <text>内饰 就 一般般 了 ， 硬 塑料 的 ， 价位 定下 了 内饰 的 档次 。</text>
+        <aspectTerms>
+            <aspectTerm term="内饰" polarity="negative" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="65">
+        <text>不过 中央空调 还是 很 不错 的 ， 在 车尾 也 能 吹 着 ， 后 2 排不坐 人 还 可以 单独 关闭 。</text>
+        <aspectTerms>
+            <aspectTerm term="中央空调" polarity="positive" from="1" to="2"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="66">
+        <text>空间 大 ， 价格 占优势 ， 底盘 强硬 噪音 大 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="价格" polarity="positive" from="3" to="4"/>
+            <aspectTerm term="底盘" polarity="negative" from="6" to="7"/>
+            <aspectTerm term="噪音" polarity="negative" from="8" to="9"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="67">
+        <text>空间 比较 大 内饰 做工 粗糙 比较 大 ， 自驾游 时 可以 像 搬家 似装 行李 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="内饰" polarity="negative" from="3" to="4"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="68">
+        <text>转向 精准度 特别 差 油耗 和 金杯 相比 高 1 到 2 升油 。</text>
+        <aspectTerms>
+            <aspectTerm term="转向" polarity="negative" from="0" to="1"/>
+            <aspectTerm term="油耗" polarity="negative" from="4" to="5"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="69">
+        <text>无 性价比 ................... 后悔 当初 没有 选择 金杯 或者 福达 ！</text>
+        <aspectTerms>
+            <aspectTerm term="性价比" polarity="negative" from="1" to="2"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="70">
+        <text>空间 大 ， 我 买 的 是 货车 车型 ， 5 座 ， 载重 0.825 T ， 491 发动机 ， 2.2 的 排量 ， 动力 还 可以 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="动力" polarity="positive" from="24" to="25"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="71">
+        <text>操控 不错 ， 这车 我 开 了 6 年 多 了 ， 习惯 了 ， 在 市区 里 穿梭 很 自 在 。</text>
+        <aspectTerms>
+            <aspectTerm term="操控" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="72">
+        <text>座椅 比 原来 的 要 差远 啦 哦 。</text>
+        <aspectTerms>
+            <aspectTerm term="座椅" polarity="negative" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="73">
+        <text>空间 大 ， 现在 拉货 方便 多 了 ， 拉个 1 吨 多 没什么 影响 ， 上坡 轻松 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="74">
+        <text>仪表盘 异响 ， 装配 问题 ， 用 胶水 粘 了 ， 解决 ， 希望 以后 的 车用 点心 。</text>
+        <aspectTerms>
+            <aspectTerm term="仪表盘" polarity="negative" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="75">
+        <text>售后 还 不错</text>
+        <aspectTerms>
+            <aspectTerm term="售后" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="76">
+        <text>外观 很 好看 ， 比较 省油 ， 在 工地 上 跑 动力 还行 跑 高度 的 时候 噪音 有点 大 ， 但是 毕竟 是 柴油车 ， 还 能 接受 。</text>
+        <aspectTerms>
+            <aspectTerm term="外观" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="动力" polarity="positive" from="11" to="12"/>
+            <aspectTerm term="噪音" polarity="negative" from="17" to="18"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="77">
+        <text>反正 现在 开车 ， 动力 杠杠 的 ， 想 咋 开 就 咋 开 ， 很 惬意 ， 没有 感觉 不够 用 。</text>
+        <aspectTerms>
+            <aspectTerm term="动力" polarity="positive" from="4" to="5"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="78">
+        <text>这个 就 不得不 说 了 ， 内饰 的 做工 ， 唉 ， 就是 小面 的 感觉 。</text>
+        <aspectTerms>
+            <aspectTerm term="内饰" polarity="negative" from="6" to="7"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="79">
+        <text>外观 大方 ， 高端 上档次 目前 没有 我 的 9 座 ， 空间 感觉 超大 ！</text>
+        <aspectTerms>
+            <aspectTerm term="外观" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="空间" polarity="positive" from="12" to="13"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="80">
+        <text>外观 时尚 ， 空间 宽敞 ， 舒适 豪华 ， 动力 强劲 漆色少 宽大 。</text>
+        <aspectTerms>
+            <aspectTerm term="外观" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="空间" polarity="positive" from="3" to="4"/>
+            <aspectTerm term="动力" polarity="positive" from="9" to="10"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="81">
+        <text>驾控 灵活 基本 比较 省 轿车 化 内饰 ， 座椅 舒适 。</text>
+        <aspectTerms>
+            <aspectTerm term="驾控" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="内饰" polarity="positive" from="7" to="8"/>
+            <aspectTerm term="座椅" polarity="positive" from="9" to="10"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="82">
+        <text>空间 比较 大 ， 座位 比较 舒服 ， 商务车 ， 只有 前窗 能够 开启 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="座位" polarity="positive" from="4" to="5"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="83">
+        <text>整车 全封闭 ， 稍微 有点 太阳 就 得 开 空调 ， 不 然后 座会 很 闷 ， 座椅 的 皮革 材质 较差 ， 空气 中 有种 怪味 久久 不 散 。</text>
+        <aspectTerms>
+            <aspectTerm term="座椅" polarity="negative" from="17" to="18"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="84">
+        <text>要说 满意 就 只有 省油 了 质量 真 不是 一般 差 。</text>
+        <aspectTerms>
+            <aspectTerm term="质量" polarity="negative" from="6" to="7"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="85">
+        <text>特别 是 第三排 座椅 ， 真的 很 不 舒服 一般 谈不上 省油 。</text>
+        <aspectTerms>
+            <aspectTerm term="座椅" polarity="negative" from="3" to="4"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="86">
+        <text>空间 比较 大 ， 底盘 扎实 ， 快 2 吨 的 车重 ， 油耗 相对 比较 低 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="negative" from="0" to="1"/>
+            <aspectTerm term="底盘" polarity="negative" from="4" to="5"/>
+            <aspectTerm term="油耗" polarity="negative" from="13" to="14"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="87">
+        <text>维修服务 的 态度 差 ， 车 在 刚刚 买 的 第 1 年 毛病 比较 多 ， 车子 配件 少 ， 配件 贵 。</text>
+        <aspectTerms>
+            <aspectTerm term="维修服务" polarity="negative" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="88">
+        <text>转弯 侧倾 比较 大 ， 方向 转向 有些 模糊 。</text>
+        <aspectTerms>
+            <aspectTerm term="转弯" polarity="negative" from="0" to="1"/>
+            <aspectTerm term="方向 转向" polarity="negative" from="5" to="7"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="89">
+        <text>2 吨 的 车身 ， 在 市区 开 空调 ， 经常 拉货 ， 油耗 也 才 6 角 左右 。</text>
+        <aspectTerms>
+            <aspectTerm term="油耗" polarity="positive" from="13" to="14"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="90">
+        <text>外观 大气 ， 有 档次 内饰 全是 软包 ， 上车 都 让 人 舒服 。</text>
+        <aspectTerms>
+            <aspectTerm term="外观" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="内饰" polarity="positive" from="5" to="6"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="91">
+        <text>性价比 还是 挺不错 的 ， 液压 制动 我们 这里 都 是 这款 车 旅游 接待 ， 很 是 受欢迎 的 ， 再说 了 车辆 整体 性能 还是 不错 的 。</text>
+        <aspectTerms>
+            <aspectTerm term="性价比" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="性能" polarity="positive" from="25" to="26"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="92">
+        <text>动力 大 ， 既 可拉货 又 可 载人 ， 拉货 可拉 1 吨 ， 拉人 最 多拉 到 8 个 。</text>
+        <aspectTerms>
+            <aspectTerm term="动力" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="93">
+        <text>发动机 噪音 大 ， 尤其 在 高速 上 速度 超过 80 码后 特别 突出 。</text>
+        <aspectTerms>
+            <aspectTerm term="发动机" polarity="negative" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="94">
+        <text>不管 是 第一排 还是 第二排 空间 都 很大 ， 前后 距离 大 ， 脚部 空间 大 不 拥挤 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="negative" from="5" to="6"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="95">
+        <text>尤其 拉货 爬坡 更能 体现 出 动力 之 强大 。</text>
+        <aspectTerms>
+            <aspectTerm term="动力" polarity="positive" from="6" to="7"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="96">
+        <text>方向盘 大小 合适 ， 操控 轻便 ， 可 单手操作 ， 指向性 明确 。</text>
+        <aspectTerms>
+            <aspectTerm term="方向盘" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="操控" polarity="positive" from="4" to="5"/>
+            <aspectTerm term="指向性" polarity="positive" from="10" to="11"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="97">
+        <text>既 可拉人 又 可 载货 ， 油耗 低 ， 性价比 高 。</text>
+        <aspectTerms>
+            <aspectTerm term="油耗" polarity="positive" from="6" to="7"/>
+            <aspectTerm term="性价比" polarity="positive" from="9" to="10"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="98">
+        <text>底盘 高 ， 通过性 好 ， 沟沟坎坎 一点 也 不怕 。</text>
+        <aspectTerms>
+            <aspectTerm term="底盘" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="99">
+        <text>空调 制冷 效果 好 热天 经常 看到 吹 白雾 ， 吹 的 人 打颤 ， 冬天 热风 吹 的 人 出汗 。</text>
+        <aspectTerms>
+            <aspectTerm term="空调" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="100">
+        <text>动力 小 毛病 多 ， 发动机 噪音 太 大 ！</text>
+        <aspectTerms>
+            <aspectTerm term="动力" polarity="negative" from="0" to="1"/>
+            <aspectTerm term="发动机" polarity="negative" from="5" to="6"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="101">
+        <text>操控 可以 ， 方向 ， 刹车 ， 离合 等 很 好 操作 。</text>
+        <aspectTerms>
+            <aspectTerm term="操控" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="102">
+        <text>目前 没 发现 哪个 越野车 空间 有 它 大 的 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="5" to="6"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="103">
+        <text>够用 ， 提速 软 ， 但 动力 源源不断 的 来 。</text>
+        <aspectTerms>
+            <aspectTerm term="提速" polarity="negative" from="2" to="3"/>
+            <aspectTerm term="动力" polarity="positive" from="6" to="7"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="104">
+        <text>空间 大 内饰 简单 最 看重 的 地方 ， 尤其 是 第三排 ， 自驾游 不错 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="内饰" polarity="positive" from="2" to="3"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="105">
+        <text>外形 拉风 ， 气场 强大 ， 地图更新 慢 空间 很大 ， 放 倒 第三排 ， 我 的 婴儿床 不用 拆 ， 直接 塞进去 。</text>
+        <aspectTerms>
+            <aspectTerm term="外形" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="空间" polarity="positive" from="8" to="9"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="106">
+        <text>唯一 郁闷 的 是 轮胎 需要 经常 换 ， 磨损 很 严重 。</text>
+        <aspectTerms>
+            <aspectTerm term="轮胎" polarity="negative" from="4" to="5"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="107">
+        <text>最 满意 的 就是 性价比 了 ， 皮实 耐造 ， 确实 很省 ， 油耗 也 不 高 ， 空间 还 大 。</text>
+        <aspectTerms>
+            <aspectTerm term="性价比" polarity="positive" from="4" to="5"/>
+            <aspectTerm term="油耗" polarity="positive" from="13" to="14"/>
+            <aspectTerm term="空间" polarity="positive" from="18" to="19"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="108">
+        <text>底盘 高 涉水 能力 强 ， 走烂路 不 担心 底盘 ， 开惯 了 佳宝 换 轿车 了 下 马路 牙子 都 刮过 一回 。</text>
+        <aspectTerms>
+            <aspectTerm term="底盘" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="109">
+        <text>真说 缺点 可能 就是 动力 没有 五菱 好 ， 毕竟 价钱 摆在 哪 。</text>
+        <aspectTerms>
+            <aspectTerm term="动力" polarity="negative" from="4" to="5"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="110">
+        <text>动力 这个 不能 说好 ， 但是 满载 人 爬坡 还是 上 的 去 的 。</text>
+        <aspectTerms>
+            <aspectTerm term="动力" polarity="neutral" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="111">
+        <text>80 公里 以内 动力 都 可以 ， 80 以上 就 费劲 了 。</text>
+        <aspectTerms>
+            <aspectTerm term="动力" polarity="neutral" from="3" to="4"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="112">
+        <text>经常 看 汽车 之家 的 视频 ， 总谈 什么 指向性 啊 路感 啊 什么 的 ， 其实 我 感觉 佳宝 的 路感 和 指向性 无敌 。</text>
+        <aspectTerms>
+            <aspectTerm term="路感" polarity="positive" from="21" to="22"/>
+            <aspectTerm term="指向性" polarity="positive" from="23" to="24"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="113">
+        <text>尤其 是 路感 ， ， 有 啥 都 能 感觉 出来 。</text>
+        <aspectTerms>
+            <aspectTerm term="路感" polarity="positive" from="2" to="3"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="114">
+        <text>外观 中规中矩 ， 没有 铝合金 轮毂 ， 原车 没有 五菱 的 外挂 前杠 ， 看上去 沉稳 了 一点 。</text>
+        <aspectTerms>
+            <aspectTerm term="外观" polarity="neutral" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="115">
+        <text>性价比 自然 是 没得说 ， 不管 是 新 入行 还是 再配 车 ， 主要 用来 送货 和 短途 代步 都 是 不错 的 选择 。</text>
+        <aspectTerms>
+            <aspectTerm term="性价比" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="116">
+        <text>外观 很漂亮 ， 比 五菱之光 漂亮 多 了 ！</text>
+        <aspectTerms>
+            <aspectTerm term="外观" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="117">
+        <text>很 省油 ， 综合 油耗 最高 5 毛钱 一 公里 。</text>
+        <aspectTerms>
+            <aspectTerm term="油耗" polarity="positive" from="4" to="5"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="118">
+        <text>舒适性 一般 ， 毕竟 是 普通 的 低 配置 的 面包车 ， 尤其 是 后排 舒适性 不好 ， 路面 上 有 一点 起伏 都 会 引起 强烈 的 颠簸 。</text>
+        <aspectTerms>
+            <aspectTerm term="舒适性" polarity="negative" from="15" to="16"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="119">
+        <text>性价比 还是 比较 高 的 ， 三万块 钱 以下 的 车 能够 拉 八个 人 而且 还 能带 东西 ， 很 实用 。</text>
+        <aspectTerms>
+            <aspectTerm term="性价比" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="120">
+        <text>选择 这款 车 主要 原因 是 品牌 ， 再就是 价格 ， 经济 实惠 。</text>
+        <aspectTerms>
+            <aspectTerm term="价格" polarity="positive" from="9" to="10"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="121">
+        <text>发动机 性能 还 可以 ， 没有 面包车 常见 的 水温 高 开锅 等 现象 。</text>
+        <aspectTerms>
+            <aspectTerm term="发动机" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="122">
+        <text>小康 的 车 发动机 声音 太大 了 ， 没有 选择 。</text>
+        <aspectTerms>
+            <aspectTerm term="发动机" polarity="negative" from="3" to="4"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="123">
+        <text>动力 不错 ， 提速 目前 让 我 调校 的 相当 快 。</text>
+        <aspectTerms>
+            <aspectTerm term="动力" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="124">
+        <text>油耗 很 低 感觉 在 面包车 中 油耗 很 满意 。</text>
+        <aspectTerms>
+            <aspectTerm term="油耗" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="125">
+        <text>油耗 很 低 感觉 在 面包车 里 算是 省油 的 平时 拉 东西 都 拉 1000 多斤 毫不费力 呵呵 转向灯 有时 失灵 。</text>
+        <aspectTerms>
+            <aspectTerm term="油耗" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="转向灯" polarity="negative" from="19" to="20"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="126">
+        <text>前排 空间 不太好 。</text>
+        <aspectTerms>
+            <aspectTerm term="前排 空间" polarity="negative" from="0" to="2"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="127">
+        <text>但是 视野 非常 开阔 这是 轿车 不能 比 的 哈哈 起步 比较慢 。</text>
+        <aspectTerms>
+            <aspectTerm term="视野" polarity="positive" from="1" to="2"/>
+            <aspectTerm term="起步" polarity="negative" from="10" to="11"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="128">
+        <text>这 就是 中置 发动机 的 好处 吧 油耗 还是 很 满意 的 6.5 的 油耗 比较 不错 。</text>
+        <aspectTerms>
+            <aspectTerm term="发动机" polarity="positive" from="3" to="4"/>
+            <aspectTerm term="油耗" polarity="positive" from="7" to="8"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="129">
+        <text>经常 跑 长途 油耗 更 低 舒适性 只能 说 一般 了 。</text>
+        <aspectTerms>
+            <aspectTerm term="油耗" polarity="positive" from="3" to="4"/>
+            <aspectTerm term="舒适性" polarity="neutral" from="6" to="7"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="130">
+        <text>对 舒适性 只能 就 差些 了 这个 也 能 接受 了 对 外观 还是 挺 满意 的 。</text>
+        <aspectTerms>
+            <aspectTerm term="舒适性" polarity="negative" from="1" to="2"/>
+            <aspectTerm term="外观" polarity="positive" from="12" to="13"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="131">
+        <text>钣金 太差 ， 太差 ， 太差。</text>
+        <aspectTerms>
+            <aspectTerm term="钣金" polarity="negative" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="132">
+        <text>钣金 太差 ， 缝隙 不 均匀 仪表台 太软 ， 要是 遇上 不 讲卫生 不 文明 的 乘客 把 脚放 仪表 台上 九会 把 仪表 台 搞 烂 的 。</text>
+        <aspectTerms>
+            <aspectTerm term="钣金" polarity="negative" from="0" to="1"/>
+            <aspectTerm term="仪表台" polarity="negative" from="6" to="7"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="133">
+        <text>还有 全车 的 缝隙 比 一般 的 微面 缝隙 要 大 。</text>
+        <aspectTerms>
+            <aspectTerm term="缝隙" polarity="negative" from="3" to="4"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="134">
+        <text>操控 灵活 ， 简便 ， 对于 我们 这样 赶时间 来说 ， 一定 要 操控 灵活 的 。</text>
+        <aspectTerms>
+            <aspectTerm term="操控" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="135">
+        <text>内饰 是 黑色 和 米色 双色 的 ， 看起来 比较 前卫 ， 大方 。</text>
+        <aspectTerms>
+            <aspectTerm term="内饰" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="136">
+        <text>动力 一般 吧 ， 空车 行驶 还是 不错 的 ， 但是 一旦 满载 很 吃力 ！</text>
+        <aspectTerms>
+            <aspectTerm term="动力" polarity="neutral" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="137">
+        <text>没有 舒适性 可言 ， 尤其 过 减速带 的 时候 ， 特别 生硬 ， 很 颠簸 。</text>
+        <aspectTerms>
+            <aspectTerm term="舒适性" polarity="negative" from="1" to="2"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="138">
+        <text>外观 尤其 喜欢 大灯 ， 总体 说 比较 美观 内饰 一般 ， 比较 粗糙 。</text>
+        <aspectTerms>
+            <aspectTerm term="外观" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="内饰" polarity="negative" from="9" to="10"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="139">
+        <text>性价比 我 觉得 是 同款 面包车 里面 最高 的 。</text>
+        <aspectTerms>
+            <aspectTerm term="性价比" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="140">
+        <text>价格 方面 是 我 最 满意 的 一点 了 ， 在 微面 里 算是 便宜 的 了 ， 而且 品质 也 是 可以 的 。</text>
+        <aspectTerms>
+            <aspectTerm term="价格" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="141">
+        <text>动力 怎么 说 呢 ， 空车 跑 还 算 凑合 ， 拉货 或者 拉人 的 时候 ， 比较 悲剧 把 ~ ~ ~ ~ 操控 · · 应该 谈不上 操控 吧 。</text>
+        <aspectTerms>
+            <aspectTerm term="动力" polarity="negative" from="0" to="1"/>
+            <aspectTerm term="操控" polarity="negative" from="24" to="25"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="142">
+        <text>外观 较 平庸 ， 感觉 没有 其他 车型 那么 有 流畅 感 。</text>
+        <aspectTerms>
+            <aspectTerm term="外观" polarity="negative" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="142">
+        <text>油耗 低 ， 现在 的 油价 一 公里 不到 5 毛钱 ， 很 给 力 。</text>
+        <aspectTerms>
+            <aspectTerm term="油耗" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="143">
+        <text>内饰 总的来说 还 可以 ， 舒适 款 的 还 加 了 前排 隔断 ， 就是 收音机 太坑 爹 了 ， 实用型 的 还 能 插卡 呢 。</text>
+        <aspectTerms>
+            <aspectTerm term="内饰" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="收音机" polarity="negative" from="15" to="16"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="144">
+        <text>前排 有点 小 ， 可能 是 我 有点 胖 吧 ， 后排 很 不错 ， 全家 出去玩 ， 比 轿车 宽敞 多 了 。</text>
+        <aspectTerms>
+            <aspectTerm term="前排" polarity="negative" from="0" to="1"/>
+            <aspectTerm term="后排" polarity="positive" from="11" to="12"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="145">
+        <text>我 的 是 小 马力 舒适 款 ， 动力 强劲 ， 爬坡 有劲 ， 个人感觉 不错 。</text>
+        <aspectTerms>
+            <aspectTerm term="动力" polarity="positive" from="8" to="9"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="146">
+        <text>性价比 很 高 。</text>
+        <aspectTerms>
+            <aspectTerm term="性价比" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="147">
+        <text>油耗 低 ， 现在 的 油价 一 公里 不到 5 毛钱 ， 很 给 力 。</text>
+        <aspectTerms>
+            <aspectTerm term="油耗" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="148">
+        <text>操控 性能 还 算 可以 ， 对 的 起 它 的 价格 。</text>
+        <aspectTerms>
+            <aspectTerm term="操控" polarity="neutral" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="149">
+        <text>空间 不错 ， 高度 和 suv 一样 ， 前排 ， 后排 的 宽度 很 好 ， 够 宽敞 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="150">
+        <text>动力 差 ， 发动机 老旧 是 淘汰 的 产品 ， 面包车 的 通病 后 悬挂 钢板 ， 基本 没 舒适度 可提 。</text>
+        <aspectTerms>
+            <aspectTerm term="动力" polarity="negative" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="151">
+        <text>满意 ， 试驾 过 小型车 ， 空间 大 很多 ， 能 做 7 人 ， 宽敞 不 拥挤 ， 驾驶 位置 高度 高 ， 视野 很 好 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="6" to="7"/>
+            <aspectTerm term="视野" polarity="positive" from="24" to="25"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="152">
+        <text>1.0 的 排气量 很 低 ， 发动机 老旧 ， 3 ， 4 档 动力 还 可以 。</text>
+        <aspectTerms>
+            <aspectTerm term="排气量" polarity="negative" from="2" to="3"/>
+            <aspectTerm term="发动机" polarity="negative" from="6" to="7"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="153">
+        <text>油耗 比较满意 ， 平均 在 7 个 以内 ， 现在 冬天 油耗 有所 上涨 。</text>
+        <aspectTerms>
+            <aspectTerm term="油耗" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="154">
+        <text>做工 不是 很 好 ， 缝隙 都 很大 ， 异响 不 多 。</text>
+        <aspectTerms>
+            <aspectTerm term="做工" polarity="negative" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="155">
+        <text>空间 最 满意 ， 可以 放 200 多件 棉衣 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="156">
+        <text>离合 有点 沉 ， 对 新手 来讲 容易 熄火 。</text>
+        <aspectTerms>
+            <aspectTerm term="离合" polarity="negative" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="157">
+        <text>在 同级 小面 中 ， 整体而言 ， 性价比 还 比较 高 的 ， 适合 热爱 车 的 人 拥有 。</text>
+        <aspectTerms>
+            <aspectTerm term="性价比" polarity="positive" from="7" to="8"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="158">
+        <text>动力 就 不用说 了 ， 这 车 谈不上 这个 ， 1.0 的 小 微面 到 哪谈 动力 ， 只能 说 够用 。</text>
+        <aspectTerms>
+            <aspectTerm term="动力" polarity="neutral" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="159">
+        <text>开久 了 就 觉得 浑身 不 舒服 ， 座椅 太 不 人性化 了 。</text>
+        <aspectTerms>
+            <aspectTerm term="座椅" polarity="negative" from="8" to="9"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="160">
+        <text>小康 已经 入手 已经 大半年 了 ， 促使 买 这款 车 的 原因 也 是 使用 到 现在 比较满意 的 一点 ： 外形 较酷 。</text>
+        <aspectTerms>
+            <aspectTerm term="外形" polarity="positive" from="22" to="23"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="161">
+        <text>话说回来 ， 这个 空间 对于 乘坐 的话 ， 是 足够 了 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="3" to="4"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="162">
+        <text>空间 有点 小 ， 装 东西 的 时候 不是 很 给 力 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="negative" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="163">
+        <text>动力 不是 很 给力 ， 提速 很 慢 ， 不过 油耗 还 比较 低 。</text>
+        <aspectTerms>
+            <aspectTerm term="动力" polarity="negative" from="0" to="1"/>
+            <aspectTerm term="提速" polarity="negative" from="5" to="6"/>
+            <aspectTerm term="油耗" polarity="positive" from="10" to="11"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="164">
+        <text>东风厂 生产 的 越野 微客 ， 做工 精细 ， 设计 的 二级 踏板 更加 人性化 ！</text>
+        <aspectTerms>
+            <aspectTerm term="做工" polarity="positive" from="6" to="7"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="165">
+        <text>车身 在 同级 里面 很 厚实 ， 动力 很 强劲 ， 底盘 高 ， 通过 性 比较 好 ！</text>
+        <aspectTerms>
+            <aspectTerm term="车身" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="动力" polarity="positive" from="7" to="8"/>
+            <aspectTerm term="底盘" polarity="positive" from="11" to="12"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="166">
+        <text>还行 ， 便宜 ， 同样 价格 还是 不错 的 。</text>
+        <aspectTerms>
+            <aspectTerm term="价格" polarity="positive" from="5" to="6"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="167">
+        <text>外观 霸气 ， 街上 很少 有 军绿色 车 ， 建议 军绿色 是 首选 。</text>
+        <aspectTerms>
+            <aspectTerm term="外观" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="168">
+        <text>空调 出风口 设计 不错 ， 挡风玻璃 高度 是 最 满意 的 ， 无论 太阳 在 那里 都 照不到 脸 。</text>
+        <aspectTerms>
+            <aspectTerm term="空调" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="挡风玻璃" polarity="positive" from="5" to="6"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="169">
+        <text>内饰 简单 ， 用料 廉价 ， 噪音 大 ， 座椅 质量 太差 ！</text>
+        <aspectTerms>
+            <aspectTerm term="内饰" polarity="negative" from="0" to="1"/>
+            <aspectTerm term="用料" polarity="negative" from="3" to="4"/>
+            <aspectTerm term="座椅" polarity="negative" from="9" to="10"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="170">
+        <text>外观 大气 漂亮 ， 空间 宽敞 ， 拉人拉货 都 很 给 力 ， 货架 都 能拉好 几百斤 。</text>
+        <aspectTerms>
+            <aspectTerm term="外观" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="空间" polarity="positive" from="4" to="5"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="171">
+        <text>可以 就是 喜欢 这个 车 的 外观 ， 绝对 独一无二 比 同级 别的 便宜 ， 比 那些 厚道 多 了 。</text>
+        <aspectTerms>
+            <aspectTerm term="外观" polarity="positive" from="6" to="7"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="172">
+        <text>外观 好看 ， 发动机 声音 大 ， 隔声 差 。</text>
+        <aspectTerms>
+            <aspectTerm term="外观" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="发动机" polarity="negative" from="3" to="4"/>
+            <aspectTerm term="隔声" polarity="negative" from="7" to="8"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="173">
+        <text>有小悍 马 的 味道 隔声 比较 差 、 一般 ， 基本 够用 。</text>
+        <aspectTerms>
+            <aspectTerm term="隔声" polarity="negative" from="4" to="5"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="174">
+        <text>外观 新颖 ， 霸气 ， 像 一辆 霸气 的 小悍 马 。</text>
+        <aspectTerms>
+            <aspectTerm term="外观" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="175">
+        <text>动力 有点 ， 有点 很 弱 ， 毕竟 是 1.0 的 发动机 。</text>
+        <aspectTerms>
+            <aspectTerm term="动力" polarity="negative" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="176">
+        <text>油耗 十分 的 低 ， 可以 让 老百姓 接受 。</text>
+        <aspectTerms>
+            <aspectTerm term="油耗" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="177">
+        <text>空间 比较 不错 ， 就是 整体 车身 有点 短 ， 不过 比 五菱之光 强 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="整体 车身" polarity="negative" from="5" to="7"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="178">
+        <text>动力 还算 比较 充裕 的 ， 至少 平时 拉个 货 ， 拉 个人 什么 的 ， 完全 够用 了 。</text>
+        <aspectTerms>
+            <aspectTerm term="动力" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="179">
+        <text>发动机 声音 也 不大 ， 电喷 发动机 是 有劲 哈 ~ ~ 操控 性能 一般 吧 ， 比较 容易 上 手 。</text>
+        <aspectTerms>
+            <aspectTerm term="发动机" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="操控" polarity="neutral" from="12" to="13"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="180">
+        <text>油耗 在 面包车 里算 低 的 了 ， 平均 一 公里 不到 五毛钱 。</text>
+        <aspectTerms>
+            <aspectTerm term="油耗" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="181">
+        <text>现在 7.67 的 油价 ， 这个 油耗 算 不错 的 了 。</text>
+        <aspectTerms>
+            <aspectTerm term="油耗" polarity="positive" from="6" to="7"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="182">
+        <text>为了 省钱 、 适合 平民 ， 动力 这方面 大打折扣 ！</text>
+        <aspectTerms>
+            <aspectTerm term="动力" polarity="negative" from="6" to="7"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="183">
+        <text>说白了 除了 便宜 外 就是 买 它 的 外观 ！</text>
+        <aspectTerms>
+            <aspectTerm term="外观" polarity="positive" from="8" to="9"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="184">
+        <text>方向盘 真的 很 重 ， 原地 调头 特别 吃力 ， 我 想 不 适合 女 的 开 。</text>
+        <aspectTerms>
+            <aspectTerm term="方向盘" polarity="negative" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="185">
+        <text>空间 很大 ， 后门 还是 和 轿车 一样 开 的 ， 很 实用 ， ?</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="186">
+        <text>性价比 超高 的 ， 能练 技术 ， 又 实用 当时 因为 经济 有限 ， 考虑 到 家里 比较 实用 ， 能 遮风挡雨 。</text>
+        <aspectTerms>
+            <aspectTerm term="性价比" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="187">
+        <text>去年 我们 这里 一个月 就 卖 了 30 台 ， 就是 因为 价格 便宜 呀 。</text>
+        <aspectTerms>
+            <aspectTerm term="价格" polarity="positive" from="12" to="13"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="188">
+        <text>性价比 很 高 内饰 比 其他 的 显得 过于 粗糙 空间 不错 由于 车身 方方正正 拉货 很 方便 动力 一般 这个 车 谈不上 操控 ！</text>
+        <aspectTerms>
+            <aspectTerm term="性价比" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="内饰" polarity="negative" from="3" to="4"/>
+            <aspectTerm term="空间" polarity="positive" from="10" to="11"/>
+            <aspectTerm term="动力" polarity="neutral" from="18" to="19"/>
+            <aspectTerm term="操控" polarity="neutral" from="23" to="24"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="189">
+        <text>钣金 看着 还 算 厚实 ， 带 凹凸 槽 的 上 顶 设计 也 非常 ， 据说 为了 安全 考虑 设计 ！</text>
+        <aspectTerms>
+            <aspectTerm term="钣金" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="190">
+        <text>车身 两侧 的 后视镜 不是 同色 的 ， 不 好看 ！</text>
+        <aspectTerms>
+            <aspectTerm term="后视镜" polarity="negative" from="3" to="4"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="191">
+        <text>动力 性能 一般 ， 日常 使用 基本 可以 ， 毕竟 发动机 小 ！</text>
+        <aspectTerms>
+            <aspectTerm term="动力" polarity="neutral" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="192">
+        <text>操控 尚可 ， 原车 不带 助力 转向 ， 打轮 时 也 还 能 都 适应 ， 不是 很 费力 ！</text>
+        <aspectTerms>
+            <aspectTerm term="操控" polarity="neutral" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="193">
+        <text>油耗 一般 ， 在 可 接受 的 范围 内 ， 新提 的 车 ， 还 没出 磨合期 （ 估算 7.5 百公里 ） ！</text>
+        <aspectTerms>
+            <aspectTerm term="油耗" polarity="neutral" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="194">
+        <text>舒适性 一般 ， 面包车 又 不是 高级轿车 ！</text>
+        <aspectTerms>
+            <aspectTerm term="舒适性" polarity="neutral" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="195">
+        <text>一般 ， 塑料 的 内饰 ， 价位 便宜 也 不能 苛求 ！</text>
+        <aspectTerms>
+            <aspectTerm term="内饰" polarity="neutral" from="4" to="5"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="196">
+        <text>织物 座椅 ， 谈不上 包裹 感 ， 主要 是 拉拉 货 或者 拉 人 ， 也 还 算 可以 忍受 ！</text>
+        <aspectTerms>
+            <aspectTerm term="座椅" polarity="neutral" from="1" to="2"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="196">
+        <text>整车 的 操控 性能 比较 理想 ， 性价比 较 高 。</text>
+        <aspectTerms>
+            <aspectTerm term="操控" polarity="positive" from="2" to="3"/>
+            <aspectTerm term="性价比" polarity="positive" from="7" to="8"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="197">
+        <text>动力 对于 1.0 的 排量 来说 已经 足够 了 。</text>
+        <aspectTerms>
+            <aspectTerm term="动力" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="198">
+        <text>外观 构造 和 整车 流线 个人 觉得 比起 C 系列 的 外观 和 其他 品牌 的 微面 外观 一个 字 “ 帅 ” 。</text>
+        <aspectTerms>
+            <aspectTerm term="外观" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="199">
+        <text>最 满意 的 就是 外形 了 ， 当时 本来 打算 买 K17 的 ， 结果 老婆 说 要 V07S ， 果断 听 老婆 话 提车 ！</text>
+        <aspectTerms>
+            <aspectTerm term="外形" polarity="positive" from="4" to="5"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="200">
+        <text>发动机 和 变速箱 的 声音 比较 大 ， 也许 是 磨合期 的 原因 吧 。</text>
+        <aspectTerms>
+            <aspectTerm term="发动机" polarity="negative" from="0" to="1"/>
+            <aspectTerm term="变速箱" polarity="negative" from="2" to="3"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="201">
+        <text>外观 已经 算是 超越 传统 微面 的 造型 了 ， 回头率 挺高 。</text>
+        <aspectTerms>
+            <aspectTerm term="外观" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="202">
+        <text>内饰 还 可以 ， 对得起 这个 价位 ， 要是 基本型 能 和 标准型 一样 在 轮 包 和 A 柱装 塑料 护板 就 更好 了 。</text>
+        <aspectTerms>
+            <aspectTerm term="内饰" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="203">
+        <text>操控 方面 ， 首先 没有 方向 助力 ， 有些 吃力 ， 指向 清晰 ， 没有 框量 ， 方向 也 比较 灵活 。</text>
+        <aspectTerms>
+            <aspectTerm term="操控" polarity="negative" from="0" to="1"/>
+            <aspectTerm term="指向" polarity="positive" from="11" to="12"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="204">
+        <text>座位 舒适度 也 很 差 ， 希望 以后 改进 。</text>
+        <aspectTerms>
+            <aspectTerm term="座位" polarity="negative" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="205">
+        <text>大部分 人 还是 比较 喜欢 小康 的 外型 。</text>
+        <aspectTerms>
+            <aspectTerm term="外型" polarity="positive" from="7" to="8"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="206">
+        <text>内饰 采用 硬 塑料 ， 没什么 档次 而言 ， 做工 也 没什么 好 提 的 ， 只能 说 就是 个 工作台 ， 只能 在 形状 和 设计 上 改变 。</text>
+        <aspectTerms>
+            <aspectTerm term="内饰" polarity="negative" from="0" to="1"/>
+            <aspectTerm term="做工" polarity="negative" from="9" to="10"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="207">
+        <text>做工 一般 吧 性价比 我 觉得 对得起 所有 微面 的 品牌 暂时 木有 ， 希望 小康 继续 为 中华儿女 造福 。</text>
+        <aspectTerms>
+            <aspectTerm term="做工" polarity="neutral" from="0" to="1"/>
+            <aspectTerm term="性价比" polarity="positive" from="3" to="4"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="208">
+        <text>油耗 保持 在 7 个油 左右 ， 车内 空间 够用 。</text>
+        <aspectTerms>
+            <aspectTerm term="油耗" polarity="neutral" from="0" to="1"/>
+            <aspectTerm term="空间" polarity="positive" from="3" to="4"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="209">
+        <text>因为 没有 助力 ， 转向 欠 精准 ， 对于 男同志 来说 不算什么 ， 如果 是 女孩 开 的话 ， 就 有点 费劲 了 。</text>
+        <aspectTerms>
+            <aspectTerm term="转向" polarity="negative" from="4" to="5"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="210">
+        <text>操控 不错 ， 就是 刹车 有点 软 ， 其他 都 还好 。</text>
+        <aspectTerms>
+            <aspectTerm term="操控" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="刹车" polarity="negative" from="4" to="5"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="211">
+        <text>油耗 最 满意 ， 基本上 只有 四毛 多一点 。</text>
+        <aspectTerms>
+            <aspectTerm term="油耗" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="212">
+        <text>这个 车 谈不上 什么 舒适性 ， 实用 就行 ！</text>
+        <aspectTerms>
+            <aspectTerm term="舒适性" polarity="neutral" from="4" to="5"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="213">
+        <text>觉得 这车 很 省油 ， 价格 便宜 而且 外观 也 很 好 ！</text>
+        <aspectTerms>
+            <aspectTerm term="价格" polarity="positive" from="5" to="6"/>
+            <aspectTerm term="外观" polarity="positive" from="8" to="9"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="214">
+        <text>车 的 外观 没 的 说 ， 绝对 好 ， 就是 听 喜欢 它 的 外观 才 买 的 车 ， 车 的 门子 ， 前后 保险 扛 ， 都 很 好 。</text>
+        <aspectTerms>
+            <aspectTerm term="外观" polarity="positive" from="2" to="3"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="215">
+        <text>中控 太 简陋 了 ， 还有 就是 最起码 得 弄 个 USB 接口 吗 ， 其他 还 可以 接受 ， 毕竟 价格 在 那里 。</text>
+        <aspectTerms>
+            <aspectTerm term="中控" polarity="negative" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="216">
+        <text>车子 的 外形 看起来 很 特别 ， 很 喜欢 这个 小车 。</text>
+        <aspectTerms>
+            <aspectTerm term="外形" polarity="positive" from="2" to="3"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="217">
+        <text>后面 的 钢板 弹簧 好 硬 ~ 感觉 空间 还 不错 ， 算大 的 了 ~ 头部 空间 很大 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="8" to="9"/>
+            <aspectTerm term="头部 空间" polarity="positive" from="16" to="18"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="218">
+        <text>感觉 还 不错 ~ 油耗 很 满意 ， 没 仔细 算 油耗 ， 但 估摸 着 一 公里 5 毛 左右 ， 这个 油耗 还是 挺不错 的 。</text>
+        <aspectTerms>
+            <aspectTerm term="油耗" polarity="positive" from="4" to="5"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="219">
+        <text>个人感觉 性价比 还 不错 ， 挺 实惠 的 一部 小车 。</text>
+        <aspectTerms>
+            <aspectTerm term="性价比" polarity="positive" from="1" to="2"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="220">
+        <text>车 的 外观 ， 和 越野 吉普 一样 真 漂亮 内饰 太 粗糙 了 。</text>
+        <aspectTerms>
+            <aspectTerm term="外观" polarity="positive" from="2" to="3"/>
+            <aspectTerm term="内饰" polarity="negative" from="10" to="11"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="221">
+        <text>轮胎 比较 小 ， 要是 能 还 大 一点 的 此车 应该 就 更 完美 了 ！</text>
+        <aspectTerms>
+            <aspectTerm term="轮胎" polarity="negative" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="222">
+        <text>有 这 动力 咱 也 知足 了 操控 很 容易 挂挡 跟 轿车 的 样比 五菱 什么 的 车 都 好 操控 。</text>
+        <aspectTerms>
+            <aspectTerm term="动力" polarity="positive" from="2" to="3"/>
+            <aspectTerm term="操控" polarity="positive" from="7" to="8"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="223">
+        <text>最 满意 的 就是 外形 了 野味十足 开 到哪去 一点 都 没有 感觉 是 在 开 面包车 跟个 越野 样 ！</text>
+        <aspectTerms>
+            <aspectTerm term="外形" polarity="positive" from="4" to="5"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="224">
+        <text>造型 可以 噪音 偏 大 油耗 偏高</text>
+        <aspectTerms>
+            <aspectTerm term="造型" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="噪音" polarity="negative" from="2" to="3"/>
+            <aspectTerm term="油耗" polarity="negative" from="5" to="6"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="225">
+        <text>最大 优点 外观造型 中规中矩 ， 整体 车身 线条 流畅 自然 ；</text>
+        <aspectTerms>
+            <aspectTerm term="外观造型" polarity="positive" from="2" to="3"/>
+            <aspectTerm term="车身 线条" polarity="positive" from="6" to="8"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="226">
+        <text>内饰 太 简单 ， 布局合理 ， 用料 较差 ， 做工 略显 粗糙 ；</text>
+        <aspectTerms>
+            <aspectTerm term="内饰" polarity="negative" from="0" to="1"/>
+            <aspectTerm term="用料" polarity="negative" from="6" to="7"/>
+            <aspectTerm term="做工" polarity="negative" from="9" to="10"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="227">
+        <text>搭载 自主 研制 的 发动机 ， 整体 动力 输出 不错 ；</text>
+        <aspectTerms>
+            <aspectTerm term="发动机" polarity="positive" from="4" to="5"/>
+            <aspectTerm term="动力" polarity="positive" from="7" to="8"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="228">
+        <text>舒适性 不是 太高 ， 底盘 通过 性较 好 ；</text>
+        <aspectTerms>
+            <aspectTerm term="舒适性" polarity="neutral" from="0" to="1"/>
+            <aspectTerm term="底盘" polarity="positive" from="4" to="5"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="229">
+        <text>舒适性 不是 太高 ， 底盘 通过 性较 好 ；</text>
+        <aspectTerms>
+            <aspectTerm term="舒适性" polarity="neutral" from="0" to="1"/>
+            <aspectTerm term="底盘" polarity="positive" from="4" to="5"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="230">
+        <text>油耗 燃油 经济性 高 ， 百公里 油耗 7 - 8L 。</text>
+        <aspectTerms>
+            <aspectTerm term="油耗" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="231">
+        <text>操控性 也 有待 提高 ， 挂 档 有时候 不是 很 好 挂 。</text>
+        <aspectTerms>
+            <aspectTerm term="操控性" polarity="negative" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="232">
+        <text>刚 提车 没多久 ， 没 出 磨合期 油耗 还 不好 说 ， 应该 在 7 个 左右 吧 ， 动力 还是 很 强劲 的 ， 拉点 小货 没什么 问题 ！</text>
+        <aspectTerms>
+            <aspectTerm term="油耗" polarity="neutral" from="7" to="8"/>
+            <aspectTerm term="动力" polarity="positive" from="19" to="20"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="233">
+        <text>前脸 好看 低配 轮毂 空间 的话 家用 还 行 ， 拉货 的话 要 把 第二排 座椅 拆掉 。</text>
+        <aspectTerms>
+            <aspectTerm term="前脸" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="轮毂" polarity="neutral" from="3" to="4"/>
+            <aspectTerm term="空间" polarity="neutral" from="4" to="5"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="234">
+        <text>动力 输出 没有 劲 ， 跟 我 现在 的 F3R 比 起来 就 没得说 了 。</text>
+        <aspectTerms>
+            <aspectTerm term="动力" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="234">
+        <text>方向盘 的 尺寸 也 ok ， 但是 档位 不好 挂 ， 尤其 是 1 档到 2 档 ， 经常 挂不上 。</text>
+        <aspectTerms>
+            <aspectTerm term="方向盘" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="档位" polarity="positive" from="7" to="8"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="235">
+        <text>收音机 效果 很差 ， 装 了 一个 车载 MP3 ， 基本上 无 音质 可言 。</text>
+        <aspectTerms>
+            <aspectTerm term="收音机" polarity="negative" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="236">
+        <text>3W 多 的 车子 ， 就 外观 而言 ， 我 觉得 很值 了 。</text>
+        <aspectTerms>
+            <aspectTerm term="外观" polarity="positive" from="6" to="7"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="237">
+        <text>样式 很 新颖 很拉风 ， 符合 个性 需求 密封性 不是太好 ， 走 高速 的 时候 总 觉得 腿 下边 有 风吹 过 。</text>
+        <aspectTerms>
+            <aspectTerm term="样式" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="密封性" polarity="negative" from="8" to="9"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="238">
+        <text>空间 大 ， 第三排 的 座椅 翻 起来 ， 放 家里 的 东西 随便 放 ， 如果 出去 钓鱼 ， 放 钓竿 包 ， 座椅 什么 的 ， 可以 放 几个 人 的 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="239">
+        <text>外观 霸气 侧漏 ， 安装 越野 套装 后 更加 给力 ， 空间 不小 。</text>
+        <aspectTerms>
+            <aspectTerm term="外观" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="空间" polarity="positive" from="11" to="12"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="240">
+        <text>油耗 将近 10 个油 ， 可能 与 我 是 新手 以及 新车 有关 ， 以后 看看 再说 ， 不过 大家 都 反映 油耗 不低 。</text>
+        <aspectTerms>
+            <aspectTerm term="油耗" polarity="negative" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="241">
+        <text>外观 霸气 侧漏 ， 拉货拉人 都 不错 ， 油耗 太高 。</text>
+        <aspectTerms>
+            <aspectTerm term="外观" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="油耗" polarity="negative" from="8" to="9"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="242">
+        <text>买 他 就是 因为 空间 大 ， 本人 1.82 米 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="4" to="5"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="243">
+        <text>应该 是 值得 推荐 买 的 ， 性价比 不错 。</text>
+        <aspectTerms>
+            <aspectTerm term="性价比" polarity="positive" from="7" to="8"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="244">
+        <text>综合 来说 还是 很 不错 的 车 ， 性价比 非常 高 。</text>
+        <aspectTerms>
+            <aspectTerm term="性价比" polarity="positive" from="8" to="9"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="245">
+        <text>空间 大 ， 油耗 低 ， 前脸 很 霸气 做工 用料 太差 ， 路面 稍微 不好 就 各种 异响 ， 冬天 开着 会 嗖嗖 往里 吹 凉风 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="油耗" polarity="positive" from="3" to="4"/>
+            <aspectTerm term="前脸" polarity="positive" from="6" to="7"/>
+            <aspectTerm term="做工" polarity="negative" from="9" to="10"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="246">
+        <text>动力 不够 充沛 ， 可能 是 发动机 小 吧 。</text>
+        <aspectTerms>
+            <aspectTerm term="动力" polarity="negative" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="247">
+        <text>后面 的 两排 座椅 太硬 ， 没有 感觉 ， 做 时间 长 了 特别 难受 ！</text>
+        <aspectTerms>
+            <aspectTerm term="座椅" polarity="negative" from="3" to="4"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="248">
+        <text>有些 细节 还是 没 到位 ， 有 的 地方 缝隙 很大 。</text>
+        <aspectTerms>
+            <aspectTerm term="细节" polarity="negative" from="1" to="2"/>
+            <aspectTerm term="缝隙" polarity="negative" from="9" to="10"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="249">
+        <text>外观 是 最 满意 的 ， 特别 喜欢 ， 开 出去 不像 其他 面包车 那样 ， 一眼 就 看 出来 是 什么 车 。</text>
+        <aspectTerms>
+            <aspectTerm term="外观" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="250">
+        <text>驾驶室 宽敞 ， 前排 视野 开阔 ， 方便 观察 路况 ， 安全性 随之 也 提升 了 不少 。</text>
+        <aspectTerms>
+            <aspectTerm term="驾驶室" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="前排" polarity="positive" from="3" to="4"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="251">
+        <text>方向盘 不是 很 沉重 适中 但 女性 开 起来 会 感觉 比较 沉重 。</text>
+        <aspectTerms>
+            <aspectTerm term="方向盘" polarity="neutral" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="252">
+        <text>外观 很 霸气 凶悍 ， 当初 选 这款 就是 因为 看着 像 悍 马 所以 才 买 的 。</text>
+        <aspectTerms>
+            <aspectTerm term="外观" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="253">
+        <text>音响 喇叭 少 就 前排 两只 ， 害 的 我 自己 又 在 后面 安装 了 两只 。</text>
+        <aspectTerms>
+            <aspectTerm term="音响" polarity="negative" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="254">
+        <text>空间 大 省油 发动机 噪音 大 这个 价位 ， 4 米 车身 优势 很 明显 面包车 1.0 动力 都 一般 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="negative" from="0" to="1"/>
+            <aspectTerm term="发动机" polarity="negative" from="3" to="4"/>
+            <aspectTerm term="车身" polarity="positive" from="11" to="12"/>
+            <aspectTerm term="动力" polarity="negative" from="17" to="18"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="255">
+        <text>价格 合理 ， 空间 大 油耗 有点 高 可以 说 买 对 啦 的 。</text>
+        <aspectTerms>
+            <aspectTerm term="价格" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="空间" polarity="positive" from="3" to="4"/>
+            <aspectTerm term="油耗" polarity="negative" from="5" to="6"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="256">
+        <text>气味 很大 ， 还 不 清楚 ， 大家 好 ， 很 高兴 来到 汽车 之 家 ！</text>
+        <aspectTerms>
+            <aspectTerm term="气味" polarity="negative" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="257">
+        <text>最 满意 的 是 空间 很大 ， 和 五菱荣光 的 不相上下 ；</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="4" to="5"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="258">
+        <text>这个 价位 的 车 也 只有 它 空间 最大 了 1.0 的 马力 还是 弱 了 点 ， 有点 小马 拉 大车 的 感觉 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="7" to="8"/>
+            <aspectTerm term="马力" polarity="positive" from="12" to="13"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="259">
+        <text>3 万来 块 能 有 什么 好 内饰 ， 全是 塑料 。</text>
+        <aspectTerms>
+            <aspectTerm term="内饰" polarity="negative" from="7" to="8"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="260">
+        <text>档位 不是 很 清晰 ， 之前 看过 论坛 里 有 一二 档 不好 挂 的 情况 ， 我 的 是 五档 不是 很 好 挂 ， 稍 不 注意 就 打 齿轮 。</text>
+        <aspectTerms>
+            <aspectTerm term="档位" polarity="negative" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="261">
+        <text>外观 很 时尚 ， 乘坐空间 大 ， 储物空间 大 ， 后面 能放 不少 东西 ， 还是 值得 购买 的 。</text>
+        <aspectTerms>
+            <aspectTerm term="外观" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="乘坐空间" polarity="positive" from="4" to="5"/>
+            <aspectTerm term="储物空间" polarity="positive" from="7" to="8"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="262">
+        <text>最 满意 的 当然 是 A7 的 外观 了 ， 时尚 小巧 ， 看着 令人 喜欢 。</text>
+        <aspectTerms>
+            <aspectTerm term="外观" polarity="positive" from="7" to="8"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="263">
+        <text>80 码 以上 胎噪 和 发动机 声音 特别 大 ！</text>
+        <aspectTerms>
+            <aspectTerm term="胎噪" polarity="negative" from="3" to="4"/>
+            <aspectTerm term="发动机" polarity="negative" from="5" to="6"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="264">
+        <text>再次 ， 动力 感觉 很肉 ， 起步 要 很 小心翼翼 ， 不然 相当 容易 熄火 （ 习惯 了 倒 没事 ） 。</text>
+        <aspectTerms>
+            <aspectTerm term="动力" polarity="negative" from="2" to="3"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="265">
+        <text>本人 176cm ， 在 驾驶室 头顶 还有 一拳 多 的 空间 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="10" to="11"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="266">
+        <text>动力 一般 ， 面包车 基本 差距 不 大 ， 最快 到 110 ！</text>
+        <aspectTerms>
+            <aspectTerm term="动力" polarity="neutral" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="267">
+        <text>从 侧面 看 尾部 一般 ， 最后 的 窗户 不 漂亮 。</text>
+        <aspectTerms>
+            <aspectTerm term="尾部" polarity="neutral" from="3" to="4"/>
+            <aspectTerm term="窗户" polarity="negative" from="8" to="9"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="268">
+        <text>空间 相对来说 够 大 动力 太差 没有 助力 的 方向盘 你 你 一下 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="动力" polarity="negative" from="4" to="5"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="269">
+        <text>卖家 服务态度 非常 热情 ， 空间 比 同价位 的 要 大 。</text>
+        <aspectTerms>
+            <aspectTerm term="服务态度" polarity="positive" from="1" to="2"/>
+            <aspectTerm term="空间" polarity="positive" from="5" to="6"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="270">
+        <text>{ 空间 } 比较 宽敞 ， 载 7 个人 空间 还是 有余 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="1" to="2"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="271">
+        <text>经济 实惠 ， 空间 较大 ， 保养 便宜 ， 品质 可靠 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="3" to="4"/>
+            <aspectTerm term="保养" polarity="positive" from="6" to="7"/>
+            <aspectTerm term="品质" polarity="positive" from="9" to="10"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="272">
+        <text>非常 不错 的 空间 ， 同 级别 车型 中 ， 空间 是 最大 的 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="3" to="4"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="273">
+        <text>动力 一般 ， 勉强 够用 ， 毕竟 才 是 1.0 排气量 的 发动机 ， 不能 要求 太高 。</text>
+        <aspectTerms>
+            <aspectTerm term="动力" polarity="neutral" from="3" to="4"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="274">
+        <text>操控 可以 了 ， 小面 车型 ， 没有 人买 这个 车型 去 赛车 。</text>
+        <aspectTerms>
+            <aspectTerm term="操控" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="275">
+        <text>比较 大气 ， 看起来 外观 可以 ， 我 还是 比较 喜欢 的 。</text>
+        <aspectTerms>
+            <aspectTerm term="外观" polarity="positive" from="4" to="5"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="276">
+        <text>内饰 有点 简易 ， 车 内 侧面 能 看到 铁板 。</text>
+        <aspectTerms>
+            <aspectTerm term="内饰" polarity="negative" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="277">
+        <text>离合器 比较 难 踩 ， 要 蹬 到底 才能 入档 ， 四挡 不好 挂 ， 不 知道 新车 会 不会 。</text>
+        <aspectTerms>
+            <aspectTerm term="离合器" polarity="negative" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="278">
+        <text>空间 还 不错 ， 中间 位子 放到 居然 能 横 着 放下 一张 玻璃茶几 ， 就 不用 家具店 送货 了 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="279">
+        <text>买回来 后 ， 感觉 还 可以 ， 油耗 也 低 。</text>
+        <aspectTerms>
+            <aspectTerm term="油耗" polarity="positive" from="7" to="8"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="280">
+        <text>空间 非常 大 ， 拉货 很 给 力 ， 平时 食堂 拉菜 啥 的 ， 一定 问题 没有 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="281">
+        <text>还行 吧 ， 够用 方向 指向 比较 精准 ， 刹车 也 给 力 。</text>
+        <aspectTerms>
+            <aspectTerm term="指向" polarity="positive" from="5" to="6"/>
+            <aspectTerm term="刹车" polarity="positive" from="9" to="10"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="282">
+        <text>油耗 比较满意 ， 60 码 速度 油耗 也 不 高 ， 一般 5.75 左右 ， 100 码 的 时候 一般 7.2 左右 。</text>
+        <aspectTerms>
+            <aspectTerm term="油耗" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="283">
+        <text>灰色 内饰 比较 耐脏 ， 颜色 看着 大气 。</text>
+        <aspectTerms>
+            <aspectTerm term="内饰" polarity="positive" from="1" to="2"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="284">
+        <text>昌河 福瑞达 在 空间 方面 表现 尚可 ， 载人 载物 皆 可 ， 实用性 不错 ；</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="3" to="4"/>
+            <aspectTerm term="实用性" polarity="positive" from="13" to="14"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="285">
+        <text>后排空间 稍显 紧凑 ， 但 后排 座椅 折叠 后 ， 使尾箱 空间 得到 不小 的 拓展 。</text>
+        <aspectTerms>
+            <aspectTerm term="后排空间" polarity="neutral" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="286">
+        <text>昌河 福瑞达 搭载 的 东安 动力 表现 一般 ， 加速 效果 差强人意 ， 仅能 满足 日常 使用 。</text>
+        <aspectTerms>
+            <aspectTerm term="动力" polarity="neutral" from="5" to="6"/>
+            <aspectTerm term="加速 效果" polarity="neutral" from="9" to="11"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="287">
+        <text>方向盘 没有 助力 装置 但是 指向 精准 而且 很 轻松 ， 轮胎 有 较 强 抓 地感 ；</text>
+        <aspectTerms>
+            <aspectTerm term="指向" polarity="positive" from="5" to="6"/>
+            <aspectTerm term="轮胎" polarity="positive" from="11" to="12"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="288">
+        <text>侧面 和 尾部 设计 一般 ， 直上直下 的 线条 使 整车 显得 简单明了 。</text>
+        <aspectTerms>
+            <aspectTerm term="侧面" polarity="neutral" from="0" to="1"/>
+            <aspectTerm term="尾部" polarity="neutral" from="2" to="3"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="289">
+        <text>内饰 颜色 单一 ， 实惠 的 价格 使 福瑞达 的 内饰 用料 和 做工 差强人意 内饰 过于 粗糙 ；</text>
+        <aspectTerms>
+            <aspectTerm term="内饰" polarity="negative" from="0" to="1"/>
+            <aspectTerm term="用料" polarity="negative" from="11" to="12"/>
+            <aspectTerm term="做工" polarity="negative" from="13" to="14"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="290">
+        <text>座椅 舒适性 不好 空间 大 ， 拉人拉货 都 很 方便 ， 坐人 一般 7 个 成年人 没 问题 ， 挤 一挤 十来个 也 拉过 。</text>
+        <aspectTerms>
+            <aspectTerm term="座椅" polarity="negative" from="0" to="1"/>
+            <aspectTerm term="空间" polarity="negative" from="3" to="4"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="291">
+        <text>操控 谈不上 ， 就是 正常 驾驶 就行了 ， 这车 也 不是 讲 操控 的 车 ， 毕竟 这是 一款 过日子 的 车 。</text>
+        <aspectTerms>
+            <aspectTerm term="操控" polarity="neutral" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="292">
+        <text>内饰 做工 不够 精细 ， 小毛病 比较 多 ， 比如 前排 的 扶手 时间 长 了 就 掉 了 ， 上 了 几次 螺丝 ， 结果 后面 螺丝 也 滑 了 。</text>
+        <aspectTerms>
+            <aspectTerm term="内饰 做工" polarity="negative" from="0" to="2"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="293">
+        <text>性价比 很 高 ， 当时 裸 车价 只有 3.68 万元 ， 开 了 6 年整 了 ， 机器 没 大修 过 ， 正常 保养 就 可以 ， 很 实惠 。</text>
+        <aspectTerms>
+            <aspectTerm term="性价比" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="294">
+        <text>发动机 在 12 年初 跑 了 将近 6 万公里 的 时候 出现 烧 机油 的 现象 。</text>
+        <aspectTerms>
+            <aspectTerm term="发动机" polarity="negative" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="295">
+        <text>外观 很 时尚 ， 比 一般 面包车 上档次 。</text>
+        <aspectTerms>
+            <aspectTerm term="外观" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="296">
+        <text>最 满意 是 福瑞达 的 空间 ， 对于 家用 来说 其 空间 是 绰绰有余 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="5" to="6"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="297">
+        <text>座椅 单薄 ， 第二排 靠背 不可 调 ， 开车 坐车 的 人 长途 都 有点累 啊 。</text>
+        <aspectTerms>
+            <aspectTerm term="座椅" polarity="negative" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="298">
+        <text>外观 很 时尚 ， 大灯 很漂亮 ， 尾灯 纵列 使 尾部 看上去 简单 不 简约 。</text>
+        <aspectTerms>
+            <aspectTerm term="外观" polarity="positive" from="0" to="1"/>
+            <aspectTerm term="大灯" polarity="positive" from="4" to="5"/>
+            <aspectTerm term="尾灯" polarity="positive" from="7" to="8"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="299">
+        <text>个人感觉 最 满意 的 应该 是 福瑞达 的 外形 ， 从 正面 看 ， 不像 一般 的 微型 面包车 ， 也 摆脱 了 “ 面包车 ” 的 束缚 。</text>
+        <aspectTerms>
+            <aspectTerm term="外形" polarity="positive" from="8" to="9"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="300">
+        <text>看 前脸 还是 可以 用 时尚 来 形容 的 ， 还 算 有棱有角 。</text>
+        <aspectTerms>
+            <aspectTerm term="前脸" polarity="positive" from="1" to="2"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="301">
+        <text>还有 就是 小福 的 油耗 也 是 令 我 满意 的 一点 。</text>
+        <aspectTerms>
+            <aspectTerm term="油耗" polarity="positive" from="4" to="5"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="302">
+        <text>1.0 的 发动机 ， 怎么 说 呢 ， 实属 一般 ， 不拉货 的 情况 下 还 可以 吧 。</text>
+        <aspectTerms>
+            <aspectTerm term="发动机" polarity="neutral" from="2" to="3"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="303">
+        <text>不过 现在 冬天 的 油耗 有点 偏高 ， 这 级别 的 车热车 时间 要 长点 也 有 关系 。</text>
+        <aspectTerms>
+            <aspectTerm term="油耗" polarity="negative" from="4" to="5"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="304">
+        <text>外观 绝对 OK ， 当时 买 福瑞达 最 重要 的 一点 就是 相中 它 的 外观 了 。</text>
+        <aspectTerms>
+            <aspectTerm term="外观" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="305">
+        <text>后面 的 尾灯 也 是 很 喜欢 的 ， 有种 沃尔沃 的 感觉 ， 哈哈 ， 个人 看法 ， 不喜 勿 喷 阿 ！</text>
+        <aspectTerms>
+            <aspectTerm term="尾灯" polarity="positive" from="2" to="3"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="306">
+        <text>内饰 比较 粗糙 了 ， 尤其 是 中控 那块 ， 实在 是 有点 丑 。</text>
+        <aspectTerms>
+            <aspectTerm term="内饰" polarity="negative" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="307">
+        <text>过 福瑞达 的 方向盘 不错 ， 还 整个 三幅 方向盘 ， 喇叭 按键 也 是 一体 的 。</text>
+        <aspectTerms>
+            <aspectTerm term="方向盘" polarity="positive" from="3" to="4"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="308">
+        <text>使用 空间 没 问题 ， 买 面包车 的 目的 就是 为了 空间 大 ， 能 挡风遮雨 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="1" to="2"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="309">
+        <text>在 正常 行驶 以及 提速 时 ， 发动机 的 噪音 是 相当 的 大 。</text>
+        <aspectTerms>
+            <aspectTerm term="发动机" polarity="positive" from="7" to="8"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="310">
+        <text>方向盘 略 有些 重 ， 不带 助力 的 关系 吧 。</text>
+        <aspectTerms>
+            <aspectTerm term="方向盘" polarity="negative" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="311">
+        <text>感觉 性价比 不错 ， 所以 大街 上 跑 得 也 非常 多 。</text>
+        <aspectTerms>
+            <aspectTerm term="性价比" polarity="positive" from="1" to="2"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="312">
+        <text>空调 的 制冷 效果 很 一般 ， 跑 起来 的 时候 效果 好点 ， 在 原地 等 灯 的 时候 ， 基本上 感觉 不 出 冷风 的 。</text>
+        <aspectTerms>
+            <aspectTerm term="空调" polarity="negative" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="313">
+        <text>没修过 ， 没 抛 过 锚 ， 保养费用 低 ， 噪音 低 。</text>
+        <aspectTerms>
+            <aspectTerm term="保养费用" polarity="positive" from="7" to="8"/>
+            <aspectTerm term="噪音" polarity="positive" from="10" to="11"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="314">
+        <text>外形 比较 前卫 时尚 ， 虽然 是 2006 年 就 上市 的 车型 但 到 现在 还是 百看不厌 。</text>
+        <aspectTerms>
+            <aspectTerm term="外形" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="315">
+        <text>中控台 感觉 有点 古朴 应该 重新 设计 一下 。</text>
+        <aspectTerms>
+            <aspectTerm term="中控台" polarity="neutral" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="316">
+        <text>油耗 一般 ， 别看 是 1.0 排量 但是 要 拖动 1 吨重 的 车身 还是 比较 勉强 的 </text>
+        <aspectTerms>
+            <aspectTerm term="油耗" polarity="neutral" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="317">
+        <text>还有 就是 车辆 行驶 噪音 非常 大 ， 隔音 方面 一点 也 没有 ， 主要 是 价格 因素 造成 的 。</text>
+        <aspectTerms>
+            <aspectTerm term="噪音" polarity="negative" from="4" to="5"/>
+            <aspectTerm term="隔音" polarity="negative" from="8" to="9"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="318">
+        <text>外观 还是 比较满意 ， 在 面包车 里 绝对 是 数一数二 的 。</text>
+        <aspectTerms>
+            <aspectTerm term="外观" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="319">
+        <text>其实 面包车 中选 来 选去 还是 福瑞达 的 外观 还 行 内饰 简洁 大方 美观 ， 做工 可以 。</text>
+        <aspectTerms>
+            <aspectTerm term="外观" polarity="positive" from="8" to="9"/>
+            <aspectTerm term="内饰" polarity="positive" from="11" to="12"/>
+            <aspectTerm term="做工" polarity="positive" from="16" to="17"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="320">
+        <text>对比 过 几款 车 ， 福瑞达 的 性价比 还是 比较 高 的 。</text>
+        <aspectTerms>
+            <aspectTerm term="性价比" polarity="positive" from="7" to="8"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="321">
+        <text>外观 非常 漂亮 ， 刷 完车 丝毫 不输 10 万车 的 外观 。</text>
+        <aspectTerms>
+            <aspectTerm term="外观" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="322">
+        <text>两三个 人 坐 还 可以 ， 人 再 多 动力 明显 不足 。</text>
+        <aspectTerms>
+            <aspectTerm term="动力" polarity="negative" from="9" to="10"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="323">
+        <text>转向 非常灵活 ， 各个 制动 也 很 给 力 。</text>
+        <aspectTerms>
+            <aspectTerm term="转向" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="324">
+        <text>外观 非常 漂亮 ， 个人感觉 在 微型 面包车 中 ， 它 属于 上品 ， 大气 ， 上 挡次 。</text>
+        <aspectTerms>
+            <aspectTerm term="外观" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="325">
+        <text>个人感觉 是 性价比 非常 高 的 一款 车 。</text>
+        <aspectTerms>
+            <aspectTerm term="性价比" polarity="positive" from="2" to="3"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="326">
+        <text>冬天 驾驶 感觉 车门 子 漏风 ， 密封 性能 差 。</text>
+        <aspectTerms>
+            <aspectTerm term="密封 性能" polarity="negative" from="7" to="9"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="327">
+        <text>福瑞达 的 空间 很 宽阔 ， 很 满意 ， 高度 合理 ， 视野 宽阔 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="2" to="3"/>
+            <aspectTerm term="视野" polarity="positive" from="12" to="13"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="328">
+        <text>总之 1.0 的 排量 动力 一般 ， 乘坐 4 - 5 人 很 轻松 。</text>
+        <aspectTerms>
+            <aspectTerm term="排量" polarity="neutral" from="3" to="4"/>
+            <aspectTerm term="动力" polarity="neutral" from="4" to="5"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="329">
+        <text>空间 让 人 满意 ， 不管 是 拉 人 还是 拉货 ， 都 游刃有余 ， 非常 方便 。</text>
+        <aspectTerms>
+            <aspectTerm term="空间" polarity="positive" from="0" to="1"/>
+        </aspectTerms>
+    </sentence>
+    <sentence id="330">
+        <text>方向盘 没 助力 比较 沉 油耗 还 算 比较 合适 ， 毕竟 是 1.0 的 排量 ， 现在 改成 烧气 的 了 ， 更省 了 。</text>
+        <aspectTerms>
+            <aspectTerm term="方向盘" polarity="negative" from="0" to="1"/>
+            <aspectTerm term="油耗" polarity="positive" from="5" to="6"/>
+        </aspectTerms>
+    </sentence>
+</sentences>
