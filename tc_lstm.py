@@ -1,45 +1,54 @@
 # encoding: utf-8
+"""
+@author: guuboi
+@contact: guuboi@163.com
+@time: 2018/4/27 下午10:18
+"""
+import os
+import time
+import numpy as np
 import tensorflow as tf
-from utils import batch_index, load_word2vec, load_coupus
-
-
-class Config:
-    def __init__(self):
-        self.n_class = 3
-        self.max_target_len = 2
-        self.max_sentence_len = 40
-        self.embedding_dim = 50
-        self.batch_size = 100
-        self.n_hidden = 100
-        self.n_epoch = 10
-        self.learning_rate = 0.01
-        self.drop_keep_prob = 0.6
-        self.l2_reg = 0.001
-        self.train_file_path = './data/corpus/Auto_Train_v1.txt'
-        self.test_file_path = './data/corpus/Auto_Test_v1.txt'
-        self.embedding_file_path = './data/wiki_word2vec_50.bin'
+from utils import time_diff, batch_index
 
 
 class LSTM(object):
-    def __init__(self, config, embeddings):
+    def __init__(self, config, embeddings=None):
+        self.vocab_size = config.vocab_size
+        self.update_w2v = config.update_w2v
         self.max_target_len = config.max_target_len
-        self.embeddings = tf.constant(embeddings, dtype=tf.float32)
         self.embedding_dim = config.embedding_dim
         self.batch_size = config.batch_size
         self.n_hidden = config.n_hidden
         self.learning_rate = config.learning_rate
         self.n_class = config.n_class
-        self.max_sentence_len = config.max_sentence_len
+        self.max_sen_len = config.max_sen_len
+
+        self.opt = config.opt
         self.l2_reg = config.l2_reg
         self.n_epoch = config.n_epoch
         self.dropout_keep_prob = config.drop_keep_prob
 
-        self.x = tf.placeholder(tf.int32, [None, self.max_sentence_len], name='left_corpus')
+        # self.embeddings = tf.constant(embeddings, dtype=tf.float32)
+        if embeddings is not None:
+            self.word_embeddings = tf.Variable(embeddings, dtype=tf.float32, trainable=self.update_w2v)
+        else:
+            self.word_embeddings = tf.Variable(
+                tf.zeros([self.vocab_size, self.embedding_dim]),
+                dtype=tf.float32,
+                trainable=self.update_w2v)
+
+        # x: forword context的各个词的id号
+        # sen_len: forword context的实际词数
+        self.x = tf.placeholder(tf.int32, [None, self.max_sen_len], name='left_corpus')
         self.sen_len = tf.placeholder(tf.int32, None, name='left_corpus_length')
 
-        self.x_bw = tf.placeholder(tf.int32, [None, self.max_sentence_len], name='right_corpus')
+        # x_bw: backword context的各个词的id号
+        # sen_len_bw: backword context的实际次数
+        self.x_bw = tf.placeholder(tf.int32, [None, self.max_sen_len], name='right_corpus')
         self.sen_len_bw = tf.placeholder(tf.int32, [None], name='right_corpus_length')
 
+        # target_words: target词的id号
+        # y: 输出类别
         self.target_words = tf.placeholder(tf.int32, [None, self.max_target_len], name='target_words')
         self.y = tf.placeholder(tf.int32, [None, self.n_class], name='global_label')
 
@@ -69,7 +78,7 @@ class LSTM(object):
         """
         :params: self.x, self.x_bw, self.seq_len, self.seq_len_bw,
                 self.weights['softmax_lstm'], self.biases['softmax_lstm']
-        :return: non-norm prediction values
+        :return: 未经过softmax转换的输出。
         """
         inputs_fw, inputs_bw = self.add_embeddings()
         inputs_fw = tf.nn.dropout(inputs_fw, keep_prob=self.dropout_keep_prob)
@@ -84,7 +93,7 @@ class LSTM(object):
                 scope='LSTM_fw'
             )
             batch_size = tf.shape(outputs_fw)[0]
-            index = tf.range(0, batch_size) * self.max_sentence_len + (self.sen_len - 1)
+            index = tf.range(0, batch_size) * self.max_sen_len + (self.sen_len - 1)
             output_fw = tf.gather(tf.reshape(outputs_fw, [-1, self.n_hidden]), index)  # batch_size * n_hidden
 
         with tf.name_scope('backward_lstm'):
@@ -96,7 +105,7 @@ class LSTM(object):
                 scope='LSTM_bw'
             )
             batch_size = tf.shape(outputs_bw)[0]
-            index = tf.range(0, batch_size) * self.max_sentence_len + (self.sen_len_bw - 1)
+            index = tf.range(0, batch_size) * self.max_sen_len + (self.sen_len_bw - 1)
             output_bw = tf.gather(tf.reshape(outputs_bw, [-1, self.n_hidden]), index)  # batch_size * n_hidden
 
         output = tf.concat([output_fw, output_bw], 1)  # batch_size * 2n_hidden
@@ -104,41 +113,38 @@ class LSTM(object):
         return predict
 
     def add_embeddings(self):
-        """
-        :return:
-        """
-        fw_words = tf.nn.embedding_lookup(self.embeddings, self.x)
-        bw_words = tf.nn.embedding_lookup(self.embeddings, self.x_bw)
+        """输入x以及x_bw，转换为词向量"""
+        fw_words = tf.nn.embedding_lookup(self.word_embeddings, self.x)
+        bw_words = tf.nn.embedding_lookup(self.word_embeddings, self.x_bw)
         batch_size = tf.shape(bw_words)[0]
-        target_words = tf.reduce_mean(tf.nn.embedding_lookup(self.embeddings, self.target_words), 1, keep_dims=True)
-        target_words = tf.zeros([batch_size, self.max_sentence_len, self.embedding_dim], tf.float32) + target_words
+        target_words = tf.reduce_mean(tf.nn.embedding_lookup(self.word_embeddings, self.target_words), 1, keep_dims=True)
+        target_words = tf.zeros([batch_size, self.max_sen_len, self.embedding_dim], tf.float32) + target_words
         fw_words = tf.concat([fw_words, target_words], 2)
         bw_words = tf.concat([bw_words, target_words], 2)
         return fw_words, bw_words
 
-    def loss(self, pred):
-        loss = tf.nn.softmax_cross_entropy_with_logits(logits=pred, labels=self.y)
-        loss = tf.reduce_mean(loss)
-        return loss
+    def add_loss(self, pred):
+        cost = tf.nn.softmax_cross_entropy_with_logits(logits=pred, labels=self.y)
+        cost = tf.reduce_mean(cost)
+        return cost
 
-    def optimizer(self, loss):
-        optimizer = tf.train.AdamOptimizer(self.learning_rate).minimize(loss)
-        return optimizer
+    def add_optimizer(self, loss):
+        if self.opt == 'adadelta':
+            optimizer = tf.train.AdadeltaOptimizer(learning_rate=1.0, rho=0.95, epsilon=1e-6)
+        else:
+            optimizer = tf.train.AdamOptimizer(self.learning_rate)
+        opt = optimizer.minimize(loss)
+        return opt
 
-    def correct_num(self, pred):
+    def add_accuracy(self, pred):
         correct_pred = tf.equal(tf.argmax(pred, 1), tf.argmax(self.y, 1))
-        correct_num = tf.reduce_sum(tf.cast(correct_pred, tf.int32))
-        # _acc = tf.reduce_mean(tf.cast(correct_pred, tf.float32))
-        return correct_num
+        accuracy = tf.reduce_mean(tf.cast(correct_pred, tf.float32))
+        return accuracy
 
-    def build(self):
-        self.pred = self.bi_dynamic_lstm()
-        self.loss = self.loss(self.pred)
-        self.optimizer = self.optimizer(self.loss)
-        self.correct_num = self.correct_num(self.pred)
-
-    def get_batch_data(self, x, sen_len, x_bw, sen_len_bw, target_words, y=None, batch_size=100):
-        for index in batch_index(len(x), batch_size, 1):
+    def get_batches(self, X, y=None, batch_size=100, shuffle=True):
+        x, sen_len, x_bw, sen_len_bw, target_words = X
+        for index in batch_index(len(x), batch_size, shuffle):
+            n = len(index)
             feed_dict = {
                 self.x: x[index],
                 self.x_bw: x_bw[index],
@@ -148,73 +154,91 @@ class LSTM(object):
             }
             if y is not None:
                 feed_dict[self.y] = y[index]
-            yield feed_dict
+            yield feed_dict, n
+
+    def build(self):
+        self.pred = self.bi_dynamic_lstm()
+        self.loss = self.add_loss(self.pred)
+        self.optimizer = self.add_optimizer(self.loss)
+        self.accuracy = self.add_accuracy(self.pred)
 
     def train_on_batch(self, sess, feed):
-        _, loss, n_correct = sess.run([self.optimizer, self.loss, self.correct_num], feed_dict=feed)
-        return loss, n_correct
+        _, _loss, _acc = sess.run([self.optimizer, self.loss, self.accuracy], feed_dict=feed)
+        return _loss, _acc
 
     def test_on_batch(self, sess, feed):
-        loss, n_correct = sess.run([self.loss, self.correct_num], feed_dict=feed)
-        return loss, n_correct
+        _loss, _acc = sess.run([self.loss, self.accuracy], feed_dict=feed)
+        return _loss, _acc
 
-    def predict_on_batch(self, sess, feed):
-        pred = sess.run(self.pred, feed_dict=feed)
-        prob = tf.nn.softmax(logits=pred, dim=1)
-        return prob
+    def predict_on_batch(self, sess, feed, prob=True):
+        result = tf.argmax(self.pred, 1)
+        if prob:
+            result = tf.nn.softmax(logits=self.pred, dim=1)
 
-    def fit(self, sess, train_set, test_set):
-        tr_x, tr_sen_len, tr_x_bw, tr_sen_len_bw, tr_y, tr_target_word = train_set
-        te_x, te_sen_len, te_x_bw, te_sen_len_bw, te_y, te_target_word = test_set
-        n_train = len(tr_x)
-        n_test = len(te_x)
-        max_acc = 0.
+        res = sess.run(result, feed_dict=feed)
+        return res
 
+    def predict(self, sess, X, prob=False):
+        yhat = []
+        for _feed, _ in self.get_batches(X, batch_size=self.batch_size, shuffle=False):
+            _yhat = self.predict_on_batch(sess, _feed, prob)
+            yhat += _yhat.tolist()
+        return np.array(yhat)
+
+    def evaluate(self, sess, X, y):
+        """评估在某一数据集上的准确率和损失"""
+        num = len(y)
+        total_loss, total_acc = 0., 0.
+        for _feed, _n in self.get_batches(X, y, batch_size=self.batch_size):
+            loss, acc = self.test_on_batch(sess, _feed)
+            total_loss += loss * _n
+            total_acc += acc * _n
+        return total_loss / num, total_acc / num
+
+    def fit(self, sess, X_train, y_train, X_dev, y_dev, save_dir=None, print_per_batch=100):
+        saver = tf.train.Saver()
+        if save_dir:
+            if not os.path.exists(save_dir):
+                os.makedirs(save_dir)
+        sess.run(tf.global_variables_initializer())
+
+        print('Training and evaluating...')
+        start_time = time.time()
+        total_batch = 0  # 总批次
+        best_acc_dev = 0.0  # 最佳验证集准确率
+        last_improved = 0  # 记录上次提升批次
+        require_improvement = 500  # 如果超过500轮模型效果未提升，提前结束训练
+        flags = False
         for epoch in range(self.n_epoch):
-            print('Epoch {} ########'.format(epoch + 1))
-            tr_acc, tr_loss = 0., 0.
-            for _train in self.get_batch_data(tr_x, tr_sen_len, tr_x_bw, tr_sen_len_bw,
-                                             tr_target_word, tr_y, self.batch_size):
-                _tr_loss, _tr_acc = self.train_on_batch(sess, _train)
-                tr_loss += _tr_loss
-                tr_acc += _tr_acc
+            print('Epoch:', epoch + 1)
+            for train_feed, train_n in self.get_batches(X_train, y_train, batch_size=self.batch_size):
+                loss_train, acc_train = self.train_on_batch(sess, train_feed)
+                loss_dev, acc_dev = self.evaluate(sess, X_dev, y_dev)
 
-            tr_loss /= n_train
-            tr_acc /= n_train
+                if total_batch % print_per_batch == 0:
+                    if acc_dev > best_acc_dev:
+                        # 保存在验证集上性能最好的模型
+                        best_acc_dev = acc_dev
+                        last_improved = total_batch
+                        if save_dir:
+                            saver.save(sess=sess, save_path=os.path.join(save_dir, 'sa-model'))
+                        improved_str = '*'
+                    else:
+                        improved_str = ''
 
-            te_acc, te_loss = 0., 0.
-            for _test in self.get_batch_data(te_x, te_sen_len, te_x_bw, te_sen_len_bw,
-                                            te_target_word, te_y, self.batch_size):
+                    time_dif = time_diff(start_time)
+                    msg = 'Iter: {0:>6}, Train Loss: {1:>6.2}, Train Acc: {2:>7.2%},' + \
+                          ' Val Loss: {3:>6.2}, Val Acc: {4:>7.2%}, Time: {5} {6}'
+                    print(msg.format(total_batch, loss_train, acc_train, loss_dev, acc_dev, time_dif, improved_str))
+                total_batch += 1
 
-                _te_loss, _te_acc = self.test_on_batch(sess, _test)
-                te_loss += _te_loss
-                te_acc += _te_acc
+                if total_batch - last_improved > require_improvement:
+                    print('No optimization for a long time, auto-stopping...')
+                    flags = True
+                    break
+            if flags:
+                break
 
-            te_loss /= n_test
-            te_acc /= n_test
-
-            print('Train: loss={}, accuracy={}\nTest: loss={}, accuracy={}'.format(tr_loss, tr_acc, te_loss, te_acc))
-
-        print('Optimization Finished! Max acc={}'.format(max_acc))
-        print('Learning_rate={}, iter_num={}, batch_size={}, hidden_num={}, l2={}'.format(
-            self.learning_rate,
-            self.n_epoch,
-            self.batch_size,
-            self.n_hidden,
-            self.l2_reg
-        ))
-
-
-config = Config()
-word2id = {}
-train = load_coupus(config.train_file_path, word2id, config.max_sentence_len)
-test = load_coupus(config.test_file_path, word2id, config.max_sentence_len)
-w2c = load_word2vec(config.embedding_file_path, word2id)
-lstm = LSTM(config, w2c)
-with tf.Session() as sess:
-    init = tf.global_variables_initializer()
-    sess.run(init)
-    lstm.fit(sess, train, test)
 
 
 
