@@ -1,9 +1,4 @@
 # encoding: utf-8
-"""
-@author: guuboi
-@contact: guuboi@163.com
-@time: 2018/4/27 下午10:18
-"""
 import numpy as np
 import tensorflow as tf
 from sklearn import metrics
