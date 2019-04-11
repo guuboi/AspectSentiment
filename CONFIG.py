@@ -4,7 +4,7 @@ class CONFIG:
     """模型训练or预测的一些参数配置"""
     vocab_size = 4217
     n_class = 2            # 分类类别
-    max_target_len = 2     # target词的最大组成词数：例如： 内饰：1；后排 空间：2
+    max_target_len = 2     # target词的最大组成词数：例如： 性价比：1；配送 速度：2
     max_sen_len = 40       # 上下文词最大数：左侧或右侧
     embedding_dim = 50     # 词向量维数
     batch_size = 100       # 批处理大小
